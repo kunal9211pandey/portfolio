@@ -1,0 +1,432 @@
+header {
+    background-color: black;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 65px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+
+}
+
+.item {
+    margin: auto;
+    padding: 10px;
+}
+
+.item ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-left: 333px;
+
+}
+
+.item ul li a {
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.item ul li a:hover {
+    color: rgb(247, 17, 6);
+}
+
+.bhai {
+    height: 600px;
+    background-image: url('hero.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    font-size: 25px;
+    margin: 25px;
+    margin-top: 160px;
+
+}
+
+.box1 p {
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 150px;
+    padding-top: 25px;
+    color: black;
+}
+
+.box1 h3 {
+    text-align: center;
+}
+
+.box1 h1 {
+    text-align: center;
+
+}
+
+.img {
+    height: 449px;
+
+}
+
+.btn {
+    padding-left: 145px;
+    margin-top: 26px;
+    margin: 10px;
+}
+
+.btn button[type='submit'] {
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: rgb(247, 17, 6);
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 4px 3px 10px 1px rgb(236, 122, 116);
+}
+
+.btn button[type='submit']:hover {
+    background-color: rgb(65, 65, 245);
+    box-shadow: 4px 3px 10px 1px rgb(157, 157, 239);
+}
+
+.btn .hire a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn .my a {
+    text-decoration: none;
+    color: white;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+
+}
+
+.image {
+    height: 202px;
+    width: 205px;
+    border: 2px solid black;
+    border-radius: 19px;
+    padding: 15px;
+    margin: 15px;
+    background-color: azure;
+    box-shadow: 5px 5px 10px 5px black;
+    cursor: pointer;
+}
+
+.image:hover {
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+.space {
+    height: 30px;
+
+}
+
+.about_us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    margin: 20px;
+    padding: 26px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.daba {
+    margin: 10px;
+    margin-left: 180px;
+}
+
+.btn1 {
+
+    margin-top: 20px;
+
+}
+
+.btn1 button[type='submit'] {
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: rgb(247, 17, 6);
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 4px 3px 10px 1px rgb(236, 122, 116);
+}
+
+.btn1 button[type='submit']:hover {
+    background-color: rgb(65, 65, 245);
+    box-shadow: 4px 3px 10px 1px rgb(157, 157, 239);
+}
+
+.btn1 .hire a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn1 .my a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.color {
+    height:600px;
+    background-color: rgba(241, 208, 164, 0.42);
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.education {
+    margin: 10px;
+    height: 465px;
+    width: 600px;
+    border: 2px solid white;
+    padding: 10px;
+    padding-left: 21px;
+    border-radius: 70px;
+    box-shadow: 5px 5px 10px 5px white;
+    background-color: white;
+
+}
+
+.internship {
+    margin: 10px;
+    height: 465px;
+    width: 600px;
+    border: 2px solid white;
+    padding: 10px;
+    padding-left: 21px;
+    border-radius: 70px;
+    box-shadow: 5px 5px 10px 5px white;
+    background-color: white;
+}
+
+.val {
+    height: 600px;
+}
+
+.technical {
+    height: 400px;
+    width: 600px;
+
+}
+
+.skill-title {
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    padding: 20px;
+}
+
+.skill-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.skill-item {
+    list-style: none;
+}
+
+.technical .title-wrapper {
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+
+.skill .title-wrapper data {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.h5 {
+    padding: 6px;
+}
+
+.skill-profress-br {
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.skill-progress-fill {
+    background-color: rgb(255, 72, 0);
+    height: 100%;
+    border-radius: inherit;
+
+}
+
+.mg {
+    height: 400px;
+    width: 600px;
+
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.place {
+    background-color: rgba(224, 230, 35, 0.17);
+    height: 360px;
+    margin-top: -80px;
+    padding-top: 12px;
+}
+
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+
+}
+
+.work .image {
+    height: 202px;
+    width: 205px;
+    border: 2px solid white;
+    border-radius: 19px;
+    padding: 15px;
+    margin: 15px;
+    background-color: azure;
+    box-shadow: 5px 5px 10px 5px white;
+    cursor: pointer;
+}
+
+.kg {
+    height: 50px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form {
+    margin: 10px;
+    padding: 5px;
+}
+
+.form {
+    border-radius: 40px;
+    height: 550px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.form input[type='text'] {
+    height: 25px;
+    width: 231px;
+    margin: 11px;
+    padding: 13px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.form input[type='email'] {
+    height: 28px;
+    width: 517px;
+    margin: 11px;
+    padding: 13px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.form textarea[name='message'] {
+    height: 10px;
+    width: 511px;
+    margin: 11px;
+    padding: 13px;
+    border: 2px solid black;
+    border-radius: 36px;
+}
+
+.form button[type='submit'] {
+    height: 50px;
+    width: 130px;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 28px;
+    background-color: rgb(255, 72, 0);
+    margin-left: 204px;
+    cursor: pointer;
+    box-shadow: 5px 3px 10px -1px rgb(240, 156, 123);
+    font-size: 25px;
+}
+
+.form button[type='submit']:hover {
+    background-color: blue;
+    box-shadow: 5px 3px 10px -1px rgb(136, 136, 234);
+}
+
+.done {
+    height: 115px;
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+    padding: 16px;
+}
+
+.done button[type='submit'] {
+    height: 54px;
+    width: 85px;
+    padding: 5px;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 27px;
+    margin-left: 56px;
+    cursor: pointer;
+    width: 160px;
+    background-color: rgb(255, 72, 0);
+    box-shadow: 5px 3px 10px -1px rgb(241, 151, 115);
+    font-size: 25px;
+}
+
+.done button[type='submit']:hover {
+    background-color: blue;
+    box-shadow: 5px 3px 10px -1px rgb(136, 136, 234);
+}
+footer{
+    height:100px;
+    background-color: black;
+}
